@@ -1,0 +1,44 @@
+2021-07-02 09:07:574 INFO  BasePage :33 - Launching Chrome Browser 
+2021-07-02 09:07:226 INFO  LoginPage :24 - Enter user Name : [[ChromeDriver: chrome on WINDOWS (19f8d959933bf7c3e40a2fad5a6eaa28)] -> xpath: //input[@name='txtUsername']]
+2021-07-02 09:07:377 INFO  LoginPage :29 - Enter password : [[ChromeDriver: chrome on WINDOWS (19f8d959933bf7c3e40a2fad5a6eaa28)] -> xpath: //input[@name='txtPassword']]
+2021-07-02 09:07:937 INFO  LoginPage :34 - Clicking on Login button : Proxy element for: DefaultElementLocator 'By.xpath: //input[@name='Submit']'
+2021-07-02 09:07:966 INFO  LoginPage :38 - Verify Welcome Text : [[ChromeDriver: chrome on WINDOWS (19f8d959933bf7c3e40a2fad5a6eaa28)] -> xpath: //a[@id='welcome']]
+2021-07-02 09:07:73 INFO  BasePage :33 - Launching Chrome Browser 
+2021-07-02 09:07:938 INFO  LoginPage :24 - Enter user Name : [[ChromeDriver: chrome on WINDOWS (843c5cc24eea8ba76c5540f649e56428)] -> xpath: //input[@name='txtUsername']]
+2021-07-02 09:07:110 INFO  LoginPage :29 - Enter password : [[ChromeDriver: chrome on WINDOWS (843c5cc24eea8ba76c5540f649e56428)] -> xpath: //input[@name='txtPassword']]
+2021-07-02 09:07:318 INFO  LoginPage :34 - Clicking on Login button : Proxy element for: DefaultElementLocator 'By.xpath: //input[@name='Submit']'
+2021-07-02 09:07:353 INFO  LoginPage :38 - Verify Welcome Text : [[ChromeDriver: chrome on WINDOWS (843c5cc24eea8ba76c5540f649e56428)] -> xpath: //a[@id='welcome']]
+2021-07-02 09:07:397 INFO  LoginPage :38 - Verify Welcome Text : [[ChromeDriver: chrome on WINDOWS (843c5cc24eea8ba76c5540f649e56428)] -> xpath: //a[@id='welcome']]
+2021-07-02 09:07:586 INFO  BasePage :33 - Launching Chrome Browser 
+2021-07-02 09:07:664 INFO  LoginPage :24 - Enter user Name : [[ChromeDriver: chrome on WINDOWS (3067dc318fc02d5cf246c6457fcb9a14)] -> xpath: //input[@name='txtUsername']]
+2021-07-02 09:07:755 INFO  LoginPage :29 - Enter password : [[ChromeDriver: chrome on WINDOWS (3067dc318fc02d5cf246c6457fcb9a14)] -> xpath: //input[@name='txtPassword']]
+2021-07-02 09:07:900 INFO  LoginPage :34 - Clicking on Login button : Proxy element for: DefaultElementLocator 'By.xpath: //input[@name='Submit']'
+2021-07-02 09:07:927 INFO  LoginPage :38 - Verify Welcome Text : [[ChromeDriver: chrome on WINDOWS (3067dc318fc02d5cf246c6457fcb9a14)] -> xpath: //a[@id='welcome']]
+2021-07-02 09:07:971 INFO  BasePage :33 - Launching Chrome Browser 
+2021-07-02 09:07:67 INFO  LoginPage :24 - Enter user Name : [[ChromeDriver: chrome on WINDOWS (a3630aee500537b02fea1265b0c30199)] -> xpath: //input[@name='txtUsername']]
+2021-07-02 09:07:224 INFO  LoginPage :29 - Enter password : [[ChromeDriver: chrome on WINDOWS (a3630aee500537b02fea1265b0c30199)] -> xpath: //input[@name='txtPassword']]
+2021-07-02 09:07:348 INFO  LoginPage :34 - Clicking on Login button : Proxy element for: DefaultElementLocator 'By.xpath: //input[@name='Submit']'
+2021-07-02 09:07:368 INFO  LoginPage :38 - Verify Welcome Text : [[ChromeDriver: chrome on WINDOWS (a3630aee500537b02fea1265b0c30199)] -> xpath: //a[@id='welcome']]
+2021-07-02 09:07:476 INFO  HomePage :26 - Clicking on Welcome button : [[ChromeDriver: chrome on WINDOWS (a3630aee500537b02fea1265b0c30199)] -> xpath: //a[@id='welcome']]
+2021-07-02 09:07:120 INFO  HomePage :22 - Clicking on Logout button : Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='/index.php/auth/logout']'
+2021-07-02 09:07:138 INFO  HomePage :30 - Verify loginpanel Text : [[ChromeDriver: chrome on WINDOWS (a3630aee500537b02fea1265b0c30199)] -> xpath: //div[@id='logInPanelHeading']]
+2021-07-02 18:07:568 INFO  BasePage :33 - Launching Chrome Browser 
+2021-07-02 18:07:473 INFO  LoginPage :24 - Enter user Name : [[ChromeDriver: chrome on WINDOWS (6d80b64a83a517b48053ca6eac5702dc)] -> xpath: //input[@name='txtUsername']]
+2021-07-02 18:07:666 INFO  LoginPage :29 - Enter password : [[ChromeDriver: chrome on WINDOWS (6d80b64a83a517b48053ca6eac5702dc)] -> xpath: //input[@name='txtPassword']]
+2021-07-02 18:07:218 INFO  LoginPage :34 - Clicking on Login button : Proxy element for: DefaultElementLocator 'By.xpath: //input[@name='Submit']'
+2021-07-02 18:07:254 INFO  LoginPage :38 - Verify Welcome Text : [[ChromeDriver: chrome on WINDOWS (6d80b64a83a517b48053ca6eac5702dc)] -> xpath: //a[@id='welcome']]
+2021-07-02 18:07:168 INFO  BasePage :33 - Launching Chrome Browser 
+2021-07-02 18:07:343 INFO  LoginPage :24 - Enter user Name : [[ChromeDriver: chrome on WINDOWS (e83a4db128d00de4221c3a4d8e125a56)] -> xpath: //input[@name='txtUsername']]
+2021-07-02 18:07:539 INFO  LoginPage :29 - Enter password : [[ChromeDriver: chrome on WINDOWS (e83a4db128d00de4221c3a4d8e125a56)] -> xpath: //input[@name='txtPassword']]
+2021-07-02 18:07:238 INFO  LoginPage :34 - Clicking on Login button : Proxy element for: DefaultElementLocator 'By.xpath: //input[@name='Submit']'
+2021-07-02 18:07:271 INFO  LoginPage :38 - Verify Welcome Text : [[ChromeDriver: chrome on WINDOWS (e83a4db128d00de4221c3a4d8e125a56)] -> xpath: //a[@id='welcome']]
+2021-07-02 18:07:752 INFO  BasePage :33 - Launching Chrome Browser 
+2021-07-02 18:07:35 INFO  LoginPage :24 - Enter user Name : [[ChromeDriver: chrome on WINDOWS (013e5726b7cf93b57d50a5d626ff2fa8)] -> xpath: //input[@name='txtUsername']]
+2021-07-02 18:07:210 INFO  LoginPage :29 - Enter password : [[ChromeDriver: chrome on WINDOWS (013e5726b7cf93b57d50a5d626ff2fa8)] -> xpath: //input[@name='txtPassword']]
+2021-07-02 18:07:264 INFO  LoginPage :34 - Clicking on Login button : Proxy element for: DefaultElementLocator 'By.xpath: //input[@name='Submit']'
+2021-07-02 18:07:298 INFO  LoginPage :38 - Verify Welcome Text : [[ChromeDriver: chrome on WINDOWS (013e5726b7cf93b57d50a5d626ff2fa8)] -> xpath: //a[@id='welcome']]
+2021-07-02 18:07:285 INFO  BasePage :33 - Launching Chrome Browser 
+2021-07-02 18:07:335 INFO  LoginPage :24 - Enter user Name : [[ChromeDriver: chrome on WINDOWS (461e982392fc7f6c85b0dc20d200252d)] -> xpath: //input[@name='txtUsername']]
+2021-07-02 18:07:486 INFO  LoginPage :29 - Enter password : [[ChromeDriver: chrome on WINDOWS (461e982392fc7f6c85b0dc20d200252d)] -> xpath: //input[@name='txtPassword']]
+2021-07-02 18:07:115 INFO  LoginPage :34 - Clicking on Login button : Proxy element for: DefaultElementLocator 'By.xpath: //input[@name='Submit']'
+2021-07-02 18:07:133 INFO  LoginPage :38 - Verify Welcome Text : [[ChromeDriver: chrome on WINDOWS (461e982392fc7f6c85b0dc20d200252d)] -> xpath: //a[@id='welcome']]

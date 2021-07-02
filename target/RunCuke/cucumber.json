@@ -1,0 +1,267 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5663803300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should login successfully",
+        "description": "",
+        "id": "login-test;user-should-login-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1929303400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 305840700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomeStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 261543800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter username\"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 17
+                }
+              ],
+              "location": "HomeStepdefs.iEnterUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 168764800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter password\"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin123",
+                  "offset": 17
+                }
+              ],
+              "location": "HomeStepdefs.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12051249000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on login button",
+            "match": {
+              "location": "HomeStepdefs.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63694800,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cWelcome [Manojj]\u003e but was:\u003cWelcome [Paul]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.orangehrmlive.demo.cucumber.stepdefs.HomeStepdefs.iShouldLoginSuccessfullyAndSeeWelcometext(HomeStepdefs.java:35)\r\n\tat ✽.Then I should login successfully and see welcometext(src/test/java/resources/featurefile/homepage.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "I should login successfully and see welcometext",
+            "match": {
+              "location": "HomeStepdefs.iShouldLoginSuccessfullyAndSeeWelcometext()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4896088400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User shoul logout successfully",
+        "description": "",
+        "id": "login-test;user-shoul-logout-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1401111500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomeStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 150784700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter username\"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 17
+                }
+              ],
+              "location": "HomeStepdefs.iEnterUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148662600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter password\"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin123",
+                  "offset": 17
+                }
+              ],
+              "location": "HomeStepdefs.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12626888000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on login button",
+            "match": {
+              "location": "HomeStepdefs.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47426300,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cWelcome [Manojj]\u003e but was:\u003cWelcome [Paul]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.orangehrmlive.demo.cucumber.stepdefs.HomeStepdefs.iShouldLoginSuccessfullyAndSeeWelcometext(HomeStepdefs.java:35)\r\n\tat ✽.Then I should login successfully and see welcometext(src/test/java/resources/featurefile/homepage.feature:19)\r\n",
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "I should login successfully and see welcometext",
+            "match": {
+              "location": "HomeStepdefs.iShouldLoginSuccessfullyAndSeeWelcometext()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I click on welcome tab",
+            "match": {
+              "location": "HomeStepdefs.iClickOnWelcomeTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "I click on logout button",
+            "match": {
+              "location": "HomeStepdefs.iClickOnLogoutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I should logout successfully and see loginpanel text",
+            "match": {
+              "location": "HomeStepdefs.iShouldLogoutSuccessfullyAndSeeLoginpanelText()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "\r\nAs a user I want to login on orangehrm website",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefile/homepage.feature"
+  }
+]
